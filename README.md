@@ -7,19 +7,36 @@ Things you may want to cover:
 
 * Ruby version
 
+  `ruby 2.5.1`
+ 
 * System dependencies
 
-* Configuration
+  `install yarn`
 
-* Database creation
-  `$ rails db:create`
-* Database initialization
-  `$ rails db:migrate`
-  `$ rails db:seed`
+* Download an run locally
 
-* How to run the test suite
-  `$ bin/webpack-dev-server`
-  `$ rails server`
+  follow steps bellow:
+  
+  `$ git clone git@github.com:mateforlife/cryptocurrency-calculator.git`
+  
+  `$ cd cryptocurrency-calculator`
+  
+  `$ bundle install`
+  
+  * Database creation
+
+    `$ rails db:create`
+  * Database initialization
+
+    `$ rails db:migrate`
+
+    `$ rails db:seed`
+
+  * How to run local server
+
+    `$ bin/webpack-dev-server`
+
+    `$ rails server`
 
 * Services (job queues, cache servers, search engines, etc.)
 
