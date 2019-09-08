@@ -17,7 +17,7 @@ class CurrenciesController < ApplicationController
       currency: currency,
       current_price: currency.current_price,
       amount: amount,
-      value: currency.calculate_value(amonunt)
+      value: currency.calculate_value(amount)
     }
   end
 
