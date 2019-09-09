@@ -13,7 +13,7 @@ Things you may want to cover:
 
   `install yarn`
 
-* Download an run locally
+* Download and run locally
 
   follow steps bellow:
   
